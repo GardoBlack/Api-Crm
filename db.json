@@ -1,0 +1,30 @@
+{
+  "clientes": [
+    {
+      "nombre": "edgar",
+      "empresa": "Venture Cpital",
+      "email": "edgarfinanzas@hotmail.com",
+      "telefono": "123412343123123",
+      "notas": "Cliente A++",
+      "id": 2
+    },
+    {
+      "nombre": "Mitte",
+      "empresa": "Conito",
+      "email": "mitte@conito.com",
+      "telefono": "123123123123",
+      "notas": "cliente regular",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
