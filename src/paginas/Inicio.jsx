@@ -33,7 +33,7 @@ const Inicio = () => {
     if (confirmar) {
       try {
 
-        const url = `http://localhost:4000/clientes/${id}`
+        const url = `${import.meta.env.VITE_API_URL}/${id}`
         const respuesta = await fetch(url, {
           method: 'DELETE'
         })
